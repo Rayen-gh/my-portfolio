@@ -67,13 +67,8 @@ const Hero = () => {
           <div className="aspect-square max-w-md mx-auto overflow-hidden rounded-3xl bg-white p-2 shadow-xl">
             <div className="h-full w-full rounded-2xl bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 p-6 sm:p-8">
               <div className="flex flex-col justify-center items-center h-full">
-                <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-white shadow-md flex items-center justify-center mb-6">
-                  <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" className="text-primary">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                  </svg>
+                <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full bg-white shadow-md flex items-center justify-center mb-6 overflow-hidden">
+                  <img src="../../../public/pdp.png" alt="Profile" className="w-full h-full object-cover" />
                 </div>
                 <div className="text-center space-y-2">
                   <p className="text-lg font-medium">Rayen Gharbi</p>
